@@ -21,7 +21,7 @@ groq_api_key=os.getenv("GROQ_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 
-st.title("RAG system using multiple datasources")
+st.title("Talk to your Documents")
 st.sidebar.title("Model fine-tuning")
 model=st.sidebar.selectbox("Select the model that you want to use", 
                      ('llama-3.1-8b-instant', 'llama-3.1-70b-versatile', 'llama3-70b-8192', 
