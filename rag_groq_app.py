@@ -38,7 +38,6 @@ Be respectful and friendly and you can use emojis too
 You do not know anything out of context and if the question 
 is out of context simply say that you do not know.
 Do not provide output based on your general knowledge
-The response provied must be more than 256 tokens.
 <context>
 {context}
 <context>
